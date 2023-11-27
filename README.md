@@ -13,3 +13,5 @@ We use [clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch
 
 [parse_coco.py](https://github.com/lkh-meredith/Entity-related-Unsupervised-Pretraining-with-Visual-Prompts-for-MABSA/blob/main/parse_coco.py) and [parse_twitter.py](https://github.com/lkh-meredith/Entity-related-Unsupervised-Pretraining-with-Visual-Prompts-for-MABSA/blob/main/parse_twitter.py) is used to pre-process data. 
 
+## Model backbone
+We use [flan-t5-base](https://huggingface.co/google/flan-t5-base) and [t5-base](https://huggingface.co/t5-base) to initialize our model.
