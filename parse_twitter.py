@@ -83,10 +83,7 @@ class TrainInputProcess:
                     image_l.append(value[0][3])
                     for vv in value:
                         v_sentiment = int(vv[2]) + 1
-                        if process_label:  # 7
-                            s_label[vv[0]] = v_sentiment + 1
-                        else:  # 5
-                            s_label[vv[0]] = v_sentiment + 2
+                        s_label[vv[0]] = v_sentiment + 2
                         for i in range(vv[0] + 1, vv[1] + 1): 
                             if process_label:
                                 s_label[i] = v_sentiment + 4
